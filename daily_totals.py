@@ -62,10 +62,3 @@ message = client.messages.create(to=recipient, from_=sender, body=msg)
 with open(OUTPUT_FILE, 'a') as f:
     f.write(today.isoformat() + '\t' + backers + '\t' + pledged_clean + '\t' + str(days_left) + '\n')
 
-
-
-
-
-
-
-
